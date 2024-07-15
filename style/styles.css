@@ -1,13 +1,22 @@
 
 
-/* Nav Styles */
-/* color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 28px;
-font-weight: 800;
-line-height: 33px;
-letter-spacing: 0%;
-text-align: left; */
+body{
+  
+}
+header{padding: 20px; 
+       text-align: center;
+       margin-top: 10px;
+}
+main{
+  margin-top: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  background-color: #FDFEFE ;
+  max-width: 1200px;
+  border-radius: 10px;
+  height: 4000px;
+  }
 
 
 .azeret-mono-normal{
@@ -69,9 +78,8 @@ nav ul li{
     right: 40px;
     top: 131px;
     bottom: 4462px;
-    
-   
- }
+    padding: 5px;
+    }
 
  .banner-content{display: flex;
     flex-direction: column;
@@ -89,10 +97,7 @@ nav ul li{
     top: 0%;
     bottom: 0%;
     transform: rotate(180.00deg);
-   
-    
-  
-}
+   }
 .banner-title{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -110,8 +115,7 @@ nav ul li{
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
-    /* display: flex; */
-    /* align-items: center; */
+    
 }
 .banner-btn{
     border-radius: 8px;
@@ -123,5 +127,36 @@ nav ul li{
     
         
 }
-  
+  .about{
+   text-align: center; 
+   padding: 20px;
+   max-width: 1100px;
+   max-height:1200px;
+
+
+  }
+  .div-first, .div-second, .div-third{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+  }
+  .div-content{
+    max-width: 400px; 
+    padding: 20px;
+  }
+  .btn-content{
+    padding: 5px;
+    cursor: pointer;
+  }
+  .sub-description{
+    text-align: justify;
+  }
+  .inspiration-content{
+    text-align: center;
+    padding: 30px;
+  }
+.video-div, iframe{
+   border-radius: 15px;
+}
 
