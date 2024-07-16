@@ -15,7 +15,7 @@ main{
   background-color: #FDFEFE ;
   max-width: 1200px;
   border-radius: 10px;
-  height: 4000px;
+  height: 2290px;
   }
 
 
@@ -79,7 +79,7 @@ nav ul li{
     top: 131px;
     bottom: 4462px;
     padding: 5px;
-    }
+    `}
 
  .banner-content{display: flex;
     flex-direction: column;
@@ -158,5 +158,127 @@ nav ul li{
   }
 .video-div, iframe{
    border-radius: 15px;
+}
+
+.target-part{
+    padding: 30px;
+    position: static;
+     width: 1140px;
+    height: 500px;
+    display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   margin: 10px 0px;
+   
+}
+.unique-title{
+    font-size: 20px;
+    font-family:'arial', Courier, monospace
+}
+
+    
+
+    
+.card-container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+.card-one{
+    width: 200px;
+    height: 230px;
+    padding: 20px;
+   border-radius: 16px;
+   background: rgba(255, 76, 30, 0.05);
+   margin: 0 20px;
+}
+.card-two{width: 200px;
+    height: 230px;
+    border-radius: 16px;
+    padding: 20px;
+    background: rgba(0, 76, 232, 0.05);
+    margin: 0 20px;
+}
+
+.card-three{width: 200px;
+    height: 230px;
+    border-radius: 16px;
+    padding: 20px;
+    background: rgba(255, 223, 0, 0.05);
+    margin: 0 20px;
+
+}
+.card-des{
+    font-size: 15px;
+    letter-spacing: 0%;
+    line-height: 15px;
+}
+.anchor-div a{
+    font-size: 15px;
+    color: black;
+}
+.support-div{
+    width: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 64px 48px 64px 48px;
+   
+}
+
+.support-container-div{background-image: url(../assets/handshake.jpg);
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        max-height: 800px;
+                        margin-top: 50px;
+                        border-radius: 10px;
+
+    
+
+}
+.support-content{
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+
+   
+}
+label input{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    
+}
+footer{
+  background-color: aliceblue;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.footer-link{
+  margin-right: 30px;
+  display: inline-block;
+  align-items: center;
+
+ 
+}
+.btn-footer{
+  border: none;
+  padding: 3px;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+ 
+}
+ul li{
+  list-style-type: none;
 }
 
